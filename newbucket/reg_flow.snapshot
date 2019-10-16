@@ -1278,6 +1278,7 @@
           "properties" : {
             "Store State" : "Do not store state",
             "canonical-value-lookup-cache-size" : "100",
+            "var" : "dd",
             "Attr" : "updated-date/${year:append(\"/\"):append(${month}):append(\"/\"):append(${day}):replaceAll(\"\\n\",\"\")}"
           },
           "propertyDescriptors" : {
@@ -1297,6 +1298,12 @@
               "displayName" : "Cache Value Lookup Cache Size",
               "identifiesControllerService" : false,
               "name" : "canonical-value-lookup-cache-size",
+              "sensitive" : false
+            },
+            "var" : {
+              "displayName" : "var",
+              "identifiesControllerService" : false,
+              "name" : "var",
               "sensitive" : false
             },
             "Stateful Variables Initial Value" : {

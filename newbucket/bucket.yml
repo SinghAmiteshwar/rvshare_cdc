@@ -1,6 +1,12 @@
 flows:
-  6ee9642d-9482-446a-837f-67362f83e70d: {ver: 1, file: reg_flow.snapshot, comments: '',
-    author: anonymous, created: 1571205142107, flowName: reg flow, flowDesc: test
-      flow}
+  6ee9642d-9482-446a-837f-67362f83e70d:
+    ver: 2
+    file: reg_flow.snapshot
+    comments: |
+      new commit
+    author: anonymous
+    created: 1571205210968
+    flowName: reg flow
+    flowDesc: test flow
 layoutVer: 1
 bucketId: 18acb209-439d-4dc4-aca2-eed36cdc4c11
